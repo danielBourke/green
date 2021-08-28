@@ -1,0 +1,42 @@
+.form {
+  h1 {
+    margin-bottom: 0;
+  }
+  h4 {
+    margin-top: 0.5rem;
+    color: $light-gray-color;
+    font-weight: 400;
+  }
+  label {
+    font-size: 12px;
+  }
+  color: $main-text-gray-color;
+  background-color: $main-white-color;
+  box-shadow: 0 0 4px 2px $light-gray-color-2;
+  width: 500px;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media (max-width: $breakpoint-tablet) {
+    width: 100%;
+    margin: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    top: 0;
+    left: 0;
+    transform: none;
+    height: 100vh;
+  }
+  &__innner_wrapper {
+    padding: 2rem;
+  }
+  &__logo {
+    width: 180px;
+    @media (max-width: $breakpoint-tablet) {
+      width: 325px;
+    }
+  }
+}

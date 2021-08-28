@@ -1,0 +1,11 @@
+@import "./app/Sass/main.scss";
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: $background-color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
