@@ -4,6 +4,8 @@ deployed version of code can be found here: https://dreamy-montalcini-f04dc8.net
 
 I have created reusable form components and in the Features/Component dir in so that they can be tested individually and the application could grow in a scalable safe way. I have used sass throughout the application. 
 
+On Mobile and tablets the form fills the whole page to optimise the UX on smaller screens.
+
 ## Available Scripts
 
 In the project directory, you can run:
